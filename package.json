@@ -1,0 +1,23 @@
+{
+  "name": "basic-node-k8s",
+  "version": "1.0.0",
+  "description": "basic node app deployed as kubernetes",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utkaln/basic-node-k8s.git"
+  },
+  "author": "Utkal Nayak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/utkaln/basic-node-k8s/issues"
+  },
+  "homepage": "https://github.com/utkaln/basic-node-k8s#readme"
+}
