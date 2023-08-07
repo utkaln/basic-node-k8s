@@ -1,0 +1,6 @@
+version: '3'
+services:
+  base-app:
+    image: utkal/base-express-http-server
+    ports:
+      - "49160:8080"
