@@ -1,4 +1,5 @@
-FROM node:18
+FROM node:18-alpine
+
 
 # app directory
 WORKDIR /usr/src/app
@@ -11,6 +12,7 @@ COPY package*.json ./
 COPY ./server.js .
 COPY ./package.json .
 
+RUN npm prune --production
 
 RUN  npm install
 
